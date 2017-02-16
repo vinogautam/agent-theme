@@ -1,0 +1,184 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ body {
+    overflow-x: hidden;
+    font-family:Droid Sans;
+ }
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #890202;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 300px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -300px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+   /* position: absolute;*/
+    top: 0;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top:16px;
+}
+.full-wd-img{ background: url(../image/home-slider.jpg) 0 0px; min-height:650px;  background-size: 100% 100%;}
+.right-side{position: relative;}
+.menu-icon{ position: absolute; top:10px; left: 0; }
+.slider-part{ position: absolute; top:30px; left:80px; }
+.client-profile{ text-align: center; padding-top: 30px; }
+.slider-part h4{ color: #fff; font-size: 24px; }
+.slider-part ul { padding:0;  margin-top:50px;}
+.slider-part ul li{ float: left; padding-right:40px;  list-style-type: none;}
+.register{ background: #890202; color: #fff; font-size: 18px; font-weight:bold; border-radius:  5px; border:2px solid #890202;  padding: 10px 0px; width:150px;  font-family:Droid Sans; display: inline-block;
+text-align: center;}
+.register:hover{ text-decoration: none; color:#fff; }
+.learn-more{background:transparent; color: #fff; font-size: 18px; font-weight:bold; border:2px solid #fff; border-radius:  5px;padding: 10px 0px; width:150px; font-family:Droid Sans;display: inline-block;
+text-align: center;}
+.learn-more:hover{color:#fff; text-decoration: none;}
+.arrow-icon{ text-align: center;
+width: 100%;
+display: inline-block;
+margin-top: 100px; }
+.slider-part h1{ font-size: 60px; font-family: ChunkFive; color:#fff;}
+.client-profile img{ padding:10px;  width: 200px; height:200px; display: inline-block;}
+.client-profile h2{ font-size: 22px; font-weight: bold; color: #fff; font-family: Droid Sans; }
+.client-profile p{color:#fff; font-family: Open Sans; font-size: 14px;}
+.client-profile button{ background: transparent; border: 2px solid #fff; border-radius: 12px; color:#fff; font-size: 18px; font-weight: bold; font-family:Droid Sans; padding: 10px 20px;  }
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 30px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;text-align: right;
+padding-right: 42px; font-weight: bold; font-family: Droid Sans; font-size:18px;}
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+.social-media { padding: 0; float: right; margin-right: 20px ; margin-top:20px;}
+.social-media li{ float:left; list-style-type: none;  padding:0 7px;}
+.client-logo{ background: #fff; width:100%; display: inline-block; text-align: center;  margin-top:20px;}
+.client-logo img{    padding: 12px 0;}
+.about-section h3{ font-family: ChunkFive;  font-size: 28px; }
+.about-section p{ font-family: Open Sans; font-size: 16px; }
+.about-section a{font-family: Open Sans; font-size: 16px;  font-weight: bold; color: #890202;}
+.botton-client{background: #890202; height: 170px;}
+.clt-img{ position: relative; }
+.clt-img img{ position: absolute; top:-40px; left: 0; width: 210px; }
+.clt-details h3{font-family: ChunkFive;  font-size: 28px; color: #fff;  margin-left:50px;  border-right: 1px solid #fff;}
+.client-msg{ width:600px; display:inline-block; }
+.client-msg .quote{ width: 20px; display: inline-block; text-align: center;}
+.client-msg .cli-profile { display: inline-block; }
+.client-msg .cli-profile img{ width:100px;  border-radius: 50%; border:1px solid #ededed;}
+.client-msg p{ margin-top:20px; font-family:Open Sans; font-size: 18px  }
+.client-msg h4{ font-family: Droid Sans; font-weight: bold; font-size: 16px; margin-bottom: 5px;}
+.client-msg .partner{ margin-top: 0 !important; color: #666;  font-family:Droid Sans; font-size: 12px }
+.footer{ background: #890202; }
+.foot{ padding: 0; }
+.foot h3{ color: #fff; font-family:Droid Sans; font-size: 18px; font-weight: bold;}
+.foot li{ list-style-type: none; padding:5px 0;}
+.foot li a{ color: #fff; text-decoration: none; font-family:Droid Sans;  }
+.subscribe{}
+.sub{ border-radius:0; border:1px solid #ccc; margin-bottom: 10px; }
+.subscribe h2{ font-size: 18px; font-family:Droid Sans; font-weight: bold; color: #fff; line-height: 30px; }
+.subscribe button{ background: #a60000; border: none; padding:10px 20px; color: #fff; border-radius: 10px;  font-size: 18px;font-weight:bold;}
+.subscribe p{ color: #fff; font-size: 11px; }
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 300px;
+    }
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 300px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+@media(max-width:991px) {
+.slider-part h1{ font-size: 30px; } .botton-client{ height: auto; } .clt-img img{ position: inherit; top: 0; }
+.client-msg{ width: 100%; }.slider-part ul li{ padding-right: 20px; }}
+@media(max-width:767px) {#page-content-wrapper{position: inherit ;} .slider-part{ left: 20px; } .register{padding: 5px 0px;
+width: 120px;}.learn-more{padding: 5px 0px;
+width: 120px;}}
