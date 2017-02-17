@@ -58,7 +58,7 @@
 .sidebar-nav {
    /* position: absolute;*/
     top: 0;
-    width: 300px;
+    /*width: 300px;*/
     margin: 0;
     padding: 0;
     list-style: none;
@@ -82,14 +82,14 @@ text-align: center;}
 width: 100%;
 display: inline-block;
 margin-top: 100px; }
-.slider-part h1{ font-size: 60px; font-family: ChunkFive; color:#fff;}
-.client-profile img{ padding:10px;  width: 200px; height:200px; display: inline-block;}
-.client-profile h2{ font-size: 22px; font-weight: bold; color: #fff; font-family: Droid Sans; }
-.client-profile p{color:#fff; font-family: Open Sans; font-size: 14px;}
-.client-profile button{ background: transparent; border: 2px solid #fff; border-radius: 12px; color:#fff; font-size: 18px; font-weight: bold; font-family:Droid Sans; padding: 10px 20px;  }
+.slider-part h1{ font-size: 60px; font-family: ChunkFive; color:#fff; text-shadow: 0px 4px 4px #000;}
+.client-profile img{ padding:5px;  width: 176px; height:176px; display: inline-block;}
+.client-profile h2{ font-size: 22px; font-weight: bold; color: #fff; font-family: Droid Sans;  margin-top: 0; margin-bottom: 0px}
+.client-profile p{color:#fff; font-family: Open Sans; font-size: 14px; margin-top: 0;}
+.client-profile button{ background: transparent; border: 2px solid #fff; border-radius: 10px; color:#fff; font-size: 18px; font-weight: bold; font-family:Droid Sans; padding: 8px 30px;  }
 .sidebar-nav li {
     text-indent: 20px;
-    line-height: 30px;
+    line-height: 28px;
 }
 
 .sidebar-nav li a {
@@ -124,7 +124,7 @@ padding-right: 42px; font-weight: bold; font-family: Droid Sans; font-size:18px;
 }
 .social-media { padding: 0; float: right; margin-right: 20px ; margin-top:20px;}
 .social-media li{ float:left; list-style-type: none;  padding:0 7px;}
-.client-logo{ background: #fff; width:100%; display: inline-block; text-align: center;  margin-top:20px;}
+.client-logo{ background: #fff; width:100%; display: inline-block; text-align: center;  margin-top:10px;}
 .client-logo img{    padding: 12px 0;}
 .about-section h3{ font-family: ChunkFive;  font-size: 28px; }
 .about-section p{ font-family: Open Sans; font-size: 16px; }
@@ -140,7 +140,7 @@ padding-right: 42px; font-weight: bold; font-family: Droid Sans; font-size:18px;
 .client-msg p{ margin-top:20px; font-family:Open Sans; font-size: 18px  }
 .client-msg h4{ font-family: Droid Sans; font-weight: bold; font-size: 16px; margin-bottom: 5px;}
 .client-msg .partner{ margin-top: 0 !important; color: #666;  font-family:Droid Sans; font-size: 12px }
-.footer{ background: #890202; }
+.footer{ background: #790303;  padding: 30px 0 !important;}
 .foot{ padding: 0; }
 .foot h3{ color: #fff; font-family:Droid Sans; font-size: 18px; font-weight: bold;}
 .foot li{ list-style-type: none; padding:5px 0;}
@@ -150,6 +150,8 @@ padding-right: 42px; font-weight: bold; font-family: Droid Sans; font-size:18px;
 .subscribe h2{ font-size: 18px; font-family:Droid Sans; font-weight: bold; color: #fff; line-height: 30px; }
 .subscribe button{ background: #a60000; border: none; padding:10px 20px; color: #fff; border-radius: 10px;  font-size: 18px;font-weight:bold;}
 .subscribe p{ color: #fff; font-size: 11px; }
+.copyright{ background: #440000; }
+.last-foot p{ padding-bottom: 0; margin-bottom: 0; color: #fff; }
 @media(min-width:768px) {
     #wrapper {
         padding-left: 300px;
@@ -182,3 +184,11 @@ padding-right: 42px; font-weight: bold; font-family: Droid Sans; font-size:18px;
 @media(max-width:767px) {#page-content-wrapper{position: inherit ;} .slider-part{ left: 20px; } .register{padding: 5px 0px;
 width: 120px;}.learn-more{padding: 5px 0px;
 width: 120px;}}
+@media(min-width:768px) {
+.menu-icon{ display:none; } .clt-details h3{ margin-left: 70px; }}
+@media(min-width:768px) and (max-width:979px) {.container{ width:400px }}
+@media(min-width:980px) and (max-width:991px) {.container{ width:600px }}
+@media(min-width:992px) and (max-width:1023px) {.container{ width:750px }}
+@media(min-width:1024px) and (max-width:1280px) {.container{ width:970px }}
+@media(min-width:1281px) and (max-width:1400px) {.container{ width:1020px }}
+@media(min-width:1400px) {.container{ width:1200px }}
