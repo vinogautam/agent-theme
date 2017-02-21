@@ -17,7 +17,7 @@
 
  body {
     overflow-x: hidden;
-    font-family:Droid Sans;
+    font-family: 'Droid Sans', sans-serif; 
  }
 
 /* Toggle Styles */
