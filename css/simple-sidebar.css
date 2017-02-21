@@ -7,8 +7,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @font-face {
     font-family: 'chunkfiveroman';
-    src: url('chunkfive-webfont.woff2') format('woff2'),
-         url('chunkfive-webfont.woff') format('woff');
+    src: url('../fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('../fonts/chunkfive-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
