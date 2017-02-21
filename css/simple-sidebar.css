@@ -13,14 +13,8 @@
     font-style: normal;
 
 }
-@font-face {
-    font-family: 'droid_sansregular';
-    src: url('droidsans-webfont.woff2') format('woff2'),
-         url('droidsans-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
 
-}
  body {
     overflow-x: hidden;
     font-family:Droid Sans;
