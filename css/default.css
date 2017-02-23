@@ -44,9 +44,9 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+/*a:hover {
 	color: #fff;
-}
+}*/
 
 .main,
 .container > header {
