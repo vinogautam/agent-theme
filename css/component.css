@@ -20,6 +20,7 @@
 	perspective: 1000px;
 	-webkit-perspective-origin: 50% 200%;
 	perspective-origin: 50% 200%;
+	overflow: hidden;
 }
 
 .dl-menuwrapper:first-child {
@@ -38,6 +39,7 @@
 	outline: none;
 }
 */
+.dl-subviewopen span{display: none !important;}
 .dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
@@ -73,12 +75,12 @@
 .dl-menuwrapper li a {
 	display: block;
 	position: relative;
-	line-height: 20px;
+	line-height: 24px;
 	font-weight: 300;
 	color: #fff;
 	outline: none;
 	text-align: right;
-	font-weight: bold; font-family: Droid Sans; font-size:18px;
+	font-weight: bold; font-family: Droid Sans; font-size:20px;
 	padding-right: 32px;
 
 }
@@ -87,7 +89,7 @@
 	/*background: rgba(255,248,213,0.1);*/
 }
 
-.dl-menuwrapper li.dl-back > a {
+/*.dl-menuwrapper li.dl-back > a {
 	padding-left: 30px;
 	background: rgba(0,0,0,0.1);
 }
@@ -111,7 +113,7 @@
 	overflow: hidden;
 
 }
-
+*/
 .dl-menuwrapper li > a:after {
 	right: 10px;
 	color: rgba(0,0,0,0.35);
