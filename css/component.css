@@ -68,7 +68,7 @@
 
 .dl-menuwrapper li {
 	position: relative;
-	padding: 3px 0;
+	
 
 }
 
@@ -80,15 +80,18 @@
 	color: #fff;
 	outline: none;
 	text-align: right;
-	font-weight: bold; font-family: Droid Sans; font-size:20px;
+	font-weight: 400; font-family: Droid Sans; font-size:16px;
 	padding-right: 32px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
 
 }
 
 .no-touch .dl-menuwrapper li a:hover {
-	/*background: rgba(255,248,213,0.1);*/
+	background: #440000;text-decoration: none;
+	
 }
-
 /*.dl-menuwrapper li.dl-back > a {
 	padding-left: 30px;
 	background: rgba(0,0,0,0.1);
@@ -176,6 +179,8 @@ All this is done for any sub-level being entered.
 	left: 0;
 	margin: 0;
 }
+@media(min-width:1400px) {.dl-menuwrapper li a{ padding-top: 15px; padding-bottom: 15px;}.dl-menu li span{top:16px;}
+.back-arrow{top:16px;}}
 
 /* Animation classes for moving out and in */
 
