@@ -79,17 +79,20 @@
 .full-wd-img{ background: url(../image/home-slider.jpg) 0 0px; min-height:650px;  background-size:cover;  background-position: center; }
 .right-side{position: relative;}
 .toggled .menu-icon {left: 40px;}
-.menu-icon{ position: absolute; top:0px; left: 22px; }
-.menu-icon .btn-default{ background: transparent; font-size: 22px; color: #fff; padding: 0px 6px; }
+.menu-icon{ position: absolute; top:0px; left:0px; }
+.menu-icon .btn-default{ background: transparent; font-size: 22px; color: #fff; padding: 0px 6px; border:none; color:#890202;}
+.menu-icon .btn-default .fa-bars{ font-size:20px;}
 .slider-part{ position: absolute; top:30px; left:80px; }
 .client-profile{ text-align: center; padding-top: 30px; }
 .slider-part h4{ color: #fff; font-size: 24px; }
 .slider-part ul { padding:0;  margin-top:50px;}
 .slider-part ul li{ float: left; padding-right:40px;  list-style-type: none;}
-.register:hover,.learn-more:hover{ background: #890202; color: #fff; font-size: 18px; font-weight:bold; border-radius:  5px; border:2px solid #890202;  padding: 10px 0px; width:150px;  font-family: 'Droid Sans', sans-serif; display: inline-block;
-text-align: center;}
+.learn-more:hover{ background:#890202; color: #fff; border:2px solid #890202;}
+.register:hover{background:transparent; border:2px solid #fff;}
 .register:hover{ text-decoration: none; color:#fff; }
-.learn-more,.register{background:transparent; color: #fff; font-size: 18px; font-weight:bold; border:2px solid #fff; border-radius:  5px;padding: 10px 0px; width:150px; font-family: 'Droid Sans', sans-serif; display: inline-block;
+.learn-more{background:transparent; color: #fff; font-size: 18px; font-weight:bold; border:2px solid #fff; border-radius:  5px;padding: 10px 0px; width:150px; font-family: 'Droid Sans', sans-serif; display: inline-block;
+text-align: center;}
+.register{background:#890202; color: #fff; font-size: 18px; font-weight:bold; border:2px solid #890202; border-radius:  5px;padding: 10px 0px; width:150px; font-family: 'Droid Sans', sans-serif; display: inline-block;
 text-align: center;}
 .learn-more:hover{color:#fff; text-decoration: none;}
 .arrow-icon{ text-align: center;
@@ -193,7 +196,7 @@ padding-right: 42px; font-weight: bold; font-family: 'Droid Sans', sans-serif; f
 .full-wd-innerqust{background: url(../image/inner-page3.jpg) 0 0px;  background-position: center;  min-height:650px;  background-size:cover;}
 .full-wd-innerfncal{background: url(../image/inner-page2.jpg) 0 0px; min-height:650px;  background-position: center;  background-size:cover;}
 .dl-menu li{ position: relative;}
-.dl-menu li span{ display: block; text-align: right; color:#fff;  position: absolute; right: 10px; top:5px; font-size: 20px}
+.dl-menu li span{ display: block; text-align: right; color:#fff;  position: absolute; right: 15px; top:5px; font-size: 20px}
 .back-arrow{text-align: left; color:#fff;  position: absolute; left: 10px; top:5px; font-size: 20px !important;
 display: block !important; z-index: 1000;}
 .full-wd-innerconts{background: url(../image/inner-page1.jpg) 0 0px;  background-position: center;  min-height:650px;  background-size:cover;}
