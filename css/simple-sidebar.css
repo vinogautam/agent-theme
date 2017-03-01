@@ -196,7 +196,7 @@ padding-right: 42px; font-weight: bold; font-family: 'Droid Sans', sans-serif; f
 .full-wd-innerqust{background: url(../image/inner-page3.jpg) 0 0px;  background-position: center;  min-height:650px;  background-size:cover;}
 .full-wd-innerfncal{background: url(../image/inner-page2.jpg) 0 0px; min-height:650px;  background-position: center;  background-size:cover;}
 .dl-menu li{ position: relative;}
-.dl-menu li span{ display: block; text-align: right; color:#fff;  position: absolute; right: 15px; top:5px; font-size: 20px}
+.dl-menu li span{ display: block; text-align: right; color:#fff;  position: absolute; right: 17px; top:6px; font-size: 20px}
 .back-arrow{text-align: left; color:#fff;  position: absolute; left: 10px; top:5px; font-size: 20px !important;
 display: block !important; z-index: 1000;}
 .full-wd-innerconts{background: url(../image/inner-page1.jpg) 0 0px;  background-position: center;  min-height:650px;  background-size:cover;}
