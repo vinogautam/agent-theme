@@ -235,7 +235,7 @@ width: 120px;}.learn-more{padding: 5px 0px; width: 120px;} #wrapper.toggled #pag
 .v-section h3{font-size: 22px}.v-section p{ font-size: 15px }.social-media{ position: initial;}.client-logo{ position: initial; display: inline-block;}
 .clt-details h3 { border-right: none; margin-left: 0;}.clt-img img{ position: inherit; top: 0; left: 45px }}
 @media(min-width:768px) {
-.menu-icon{ /*display:none;*/} .clt-details h3{ margin-left: 70px; }}
+.menu-icon{ /*display:none;*/} .clt-details h3{ margin-left: 70px; }.toggled .menu-icon { left: -120px;}}
 @media(min-width:768px) and (max-width:979px) {.container{ width:400px }}
 @media(min-width:980px) and (max-width:991px) {.container{ width:600px }}
 @media(min-width:992px) and (max-width:1023px) {.container{ width:750px }}
