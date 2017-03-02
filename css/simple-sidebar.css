@@ -242,4 +242,5 @@ width: 120px;}.learn-more{padding: 5px 0px; width: 120px;} #wrapper.toggled #pag
 @media(min-width:992px) and (max-width:1023px) {.container{ width:750px }}
 @media(min-width:1024px) and (max-width:1280px) {.container{ width:970px }}
 @media(min-width:1281px) and (max-width:1400px) {.container{ width:1020px }}
-@media(min-width:1400px) {.container{ width:1200px } .menu-icon{left:-200px;}.toggled .menu-icon{ left:-340px}}
+@media(min-width:1400px) {.container{ width:1200px } .menu-icon{left:-200px;}
+.toggled .menu-icon{ left:-340px}.slider-part{top:100px;}}
