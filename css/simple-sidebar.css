@@ -234,7 +234,7 @@ display: block !important; z-index: 1000;}
 width: 120px;}.learn-more{padding: 5px 0px; width: 120px;} #wrapper.toggled #page-content-wrapper{ position: inherit; }
 .inner-slider-part h1{ font-size: 42px; }.inner-slider-part  p{ font-size: 18px } .video-img{padding-top:50px;}
 .v-section h3{font-size: 22px}.v-section p{ font-size: 15px }.social-media{ position: initial;}.client-logo{ position: initial; display: inline-block;}
-.clt-details h3 { border-right: none; margin-left: 14px;}.clt-img img{ position: inherit; top: 10px; left: 37px }}
+.clt-details h3 { border-right: none; margin-left: 0px; text-align: center;}.clt-img img{ position: inherit; top: 10px; left: 37px }}
 @media(min-width:768px) {
 .menu-icon{ /*display:none;*/} .clt-details h3{ margin-left: 70px; }.toggled .menu-icon { left: -120px;}}
 @media(min-width:768px) and (max-width:979px) {.container{ width:400px }}
