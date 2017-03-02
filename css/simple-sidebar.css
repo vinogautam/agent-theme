@@ -78,9 +78,10 @@
 }
 .full-wd-img{ background: url(../image/home-slider.jpg) 0 0px; min-height:650px;  background-size:cover;  background-position: center; }
 .right-side{position: relative;}
-.toggled .menu-icon {left: 40px;}
+.toggled .menu-icon {left: 40px; transform: translate3d(0, 0, 0); transition: all 0.5s ease 0s;}
 .menu-icon{ position: absolute; top:0px; left:0px; }
-.menu-icon .btn-default{ background: transparent; font-size: 22px; color: #fff; padding: 0px 6px; border:none; color:#890202;}
+.menu-icon .btn-default{ background: transparent; font-size: 22px; padding: 0px 6px; 
+    border:none; color:#890202; }
 .menu-icon .btn-default .fa-bars{ font-size:20px;}
 .slider-part{ position: absolute; top:30px; left:80px; }
 .client-profile{ text-align: center; padding-top: 30px; }
@@ -241,4 +242,4 @@ width: 120px;}.learn-more{padding: 5px 0px; width: 120px;} #wrapper.toggled #pag
 @media(min-width:992px) and (max-width:1023px) {.container{ width:750px }}
 @media(min-width:1024px) and (max-width:1280px) {.container{ width:970px }}
 @media(min-width:1281px) and (max-width:1400px) {.container{ width:1020px }}
-@media(min-width:1400px) {.container{ width:1200px }}
+@media(min-width:1400px) {.container{ width:1200px } .menu-icon{left:-200px;}.toggled .menu-icon{ left:-340px}}
