@@ -202,6 +202,38 @@ padding-right: 42px; font-weight: bold; font-family: 'Droid Sans', sans-serif; f
 .back-arrow{text-align: left; color:#fff;  position: absolute; left: 10px; top:5px; font-size: 20px !important;
 display: block !important; z-index: 1000;}
 .full-wd-innerconts{background: url(../image/inner-page1.jpg) 0 0px;  background-position: center;  min-height:650px;  background-size:cover;}
+.contact-slider-part {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+}
+.contact-slider-part h1 {
+    font-size: 60px;
+    font-family: ChunkFive;
+    color: #fff;
+    text-shadow: 0px 4px 4px #000;
+}
+.contact-slider-part p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Droid Sans', sans-serif;
+   margin-top: 20px;
+margin-bottom: 30px;
+}
+.invitation{ background: #000; padding-bottom: 40px;
+padding-top: 10px; display: inline-block; padding-left: 30px; padding-right:30px; border-radius: 10px;}
+.invitation h2{color:#fff; font-family: Open Sans; font-size: 22px;  font-weight:bold; padding-bottom:20px;}
+.invitation ul{ padding:0;}
+.invitation ul li{ display: inline-block; padding:0 10px; list-style-type: none;}
+.mail-box .form-control{ margin-bottom:10px; padding:10px 10px; height: 36px}
+.redeem{ right:30px; position: absolute; top:10px;}
+.redeem h4{ color:#fff; font-size:18px;}
+.redeem button{ font-size: 18px}
+.reccomend{ position: absolute; bottom:0; background: #444; width:100%; left:0;}
+.reccomend h4{ color:#fff; font-size: 18px;}
+.reccomend h4 span{ padding-right:20px;}
 @media(min-width:768px) {
     #wrapper {
         padding-left: 300px;
