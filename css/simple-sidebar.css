@@ -228,12 +228,20 @@ padding-top: 10px; display: inline-block; padding-left: 30px; padding-right:30px
 .invitation ul{ padding:0;}
 .invitation ul li{ display: inline-block; padding:0 10px; list-style-type: none;}
 .mail-box .form-control{ margin-bottom:10px; padding:10px 10px; height: 36px}
-.redeem{ right:30px; position: absolute; top:10px;}
+.redeem{ right:30px; position: absolute; top:27px;}
 .redeem h4{ color:#fff; font-size:18px;}
 .redeem button{ font-size: 18px}
-.reccomend{ position: absolute; bottom:0; background: #444; width:100%; left:0;}
+.reccomend{ position: absolute; bottom:0; background: #444; width:100%; left:0; padding: 19px 0;}
 .reccomend h4{ color:#fff; font-size: 18px;}
 .reccomend h4 span{ padding-right:20px;}
+.modal-header{ background: #890202; color: #fff;}
+.help{ 
+position: fixed;
+right: 0px;
+top: 0;
+bottom: 0;
+margin: auto;
+height: 50px;}
 @media(min-width:768px) {
     #wrapper {
         padding-left: 300px;
